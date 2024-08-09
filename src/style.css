@@ -1,0 +1,31 @@
+body{
+    background: black;
+}
+
+.lg-react-element
+{
+    column-count: 5;
+    /* column-gap: 0px; */
+}
+
+img
+{
+    max-width: 80%;
+    display: block;
+    padding: 5px 8px;
+    border-radius: 20px;
+    transition: transform 0.4s;
+}
+
+img:hover{
+    filter: opacity(0.9);
+    transform: scale(1.02);
+}
+
+.text-h1
+{
+    color: black;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
